@@ -1,0 +1,64 @@
+﻿/* Genel Sayfa Stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444; /* Arka plan rengini koyu gri yaptık */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tam ekran yüksekliği */
+}
+
+/* Form Stilleri */
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2d2d2d; /* Form arka planı koyu renk */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+    form h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: gold; /* Başlık rengi altın sarısı */
+        font-weight: bold;
+    }
+
+/* Giriş Kutuları */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid red; /* Kırmızı kenarlık */
+    border-radius: 5px;
+    background-color: #3d3d3d; /* Kutu içi koyu renk */
+    color: white;
+    font-size: 14px;
+}
+
+    input[type="text"]::placeholder,
+    input[type="password"]::placeholder {
+        color: #ccc;
+    }
+
+/* Buton */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: gray; /* Buton arka plan rengi */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #666; /* Hover efekti */
+    }
